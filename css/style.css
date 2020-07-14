@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background : #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("imgs/back logo.png");
+    background-position: top -38%, left 20%;
+}
+
+.header {
+    background: #222624;
+    height: 800px;
+    color: #ffffff;
+}
+
+.first-line {
+    border: 1px solid rgba(238, 238, 238, 0.25);
+    align-items: center;
+    width: 50px;
+}
+
+.aid_logo img {
+    position: relative;
+}
+
+.heading_underline {
+    border: 1px solid rgba(238, 238, 238, 0.25);
+    height: 0;
+    position: absolute;
+    bottom: 80%;
+    width: 570px;
+    margin-right: 0;
+    margin-left: 628px;
+    margin-top: 0px;
+}
+
+.coming_soon {
+    font-style: normal;
+    font-weight: 800;
+   font-size: 63px;
+   line-height: 66px;
+}
+
+.underline {
+    background: #2EC68F;
+    height: 12px;
+    width: 335px;
+    margin-bottom: 10px;
+}
+
+.lead1 {
+    color: #C1EAEA;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.07em;
+}
+
+.lead2 {
+    color: #C4C4C4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.07em;
+}
+
+input[type="email"] {
+    color: #c4c4c4;
+    background: #222624;
+    border: 2px solid #eeeeee;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.input-group-append {
+    border-radius: 5px;
+}
+
+.input-group-text {
+    background: #2EC68F;
+    border-radius: 5px;
+    box-shadow: -9.64706px 9.64706px 19.2941px rgba(0, 0, 0, 0.35), -23.1529px 23.1529px 57.8824px rgba(0, 0, 0, 0.2), -30.8706px 30.8706px 135.059px rgba(0, 0, 0, 0.2), 11.5765px -11.5765px 19.2941px rgba(255, 255, 255, 0.07), inset -3.85882px 3.85882px 7.71765px rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.07em;
+    padding: 3px;
+}
+
+.launch {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.countdown {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.3195px;
+    line-height: 48px;
+    letter-spacing: -0.07em;
+    text-transform: capitalize;
+    color: #2EC68F;
+    text-shadow: -4.12302px 4.12302px 8.24603px rgba(0, 0, 0, 0.35), -9.89524px 9.89524px 24.7381px rgba(0, 0, 0, 0.2), -13.1937px 13.1937px 57.7222px rgba(0, 0, 0, 0.2), 4.94762px -4.94762px 8.24603px rgba(255, 255, 255, 0.07);
+}
+
+#subscript {
+    color: #c4c4c4;
+    font-size: 14px;
+}
+
+.heading_underline2 {
+    border: 1px solid rgba(238, 238, 238, 0.25);
+    height: 0;
+}
