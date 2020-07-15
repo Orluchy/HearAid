@@ -2,7 +2,7 @@
    $servername = '';
    $username = 'Orluchy';
    $password = 'cherries11!';
-   $database = '';
+   $database = 'emails';
    
    $connection = mysqli_connect($servername, $username, $password, $database) or die(mysqli_connect_error());
 
@@ -15,7 +15,7 @@
     
          
       if($load) {
-          echo "Thanks for subscribing!";
+          echo "We'll keep you updated!";
       }
       else {
           echo "There was an error!";

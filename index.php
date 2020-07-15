@@ -51,7 +51,7 @@
 
       <section class="features">
           <div class="container">
-            <div class="container">
+            <div class="container py-5">
               <div class="row app-features">
                 <div class="col-12 col-md-6 feat-img1">
                   <img src="imgs/X - 15.png" alt="sound-detector">
@@ -66,7 +66,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="row app-features2">
+                <div class="row app-features2 py-5">
                   <div class="col-12 col-md-6 detect-sound">
                     <span class="first-line">
                       <i class="fas fa-wifi fa-4x"></i>
@@ -80,7 +80,7 @@
                     <img src="imgs/X - 11.png" alt="sound-detector">
                   </div>
                   </div>
-                <div class="row app-features3">
+                <div class="row app-features3 py-5">
                   <div class="col-12 col-md-6 feat-img1">
                     <img src="imgs/X - 15.png" alt="sound-detector">
                   </div>
@@ -94,7 +94,7 @@
                       </div>
                     </div>
                 </div>
-                  <div class="row app-features4">
+                  <div class="row app-features4 py-5">
                     <div class="col-12 col-md-6 detect-sound">
                       <span class="first-line">
                         <i class="fas fa-wifi fa-4x"></i>
@@ -108,7 +108,7 @@
                       <img src="imgs/create avatar.png" alt="sound-detector">
                     </div>
                  </div>
-                 <div class="row app-features5">
+                 <div class="row app-features5 py-5">
                   <div class="col-12 col-md-6 feat-img1">
                     <img src="imgs/X - 13.png" alt="sound-detector">
                   </div>
@@ -122,7 +122,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row app-features6">
+                  <div class="row app-features6 py-5">
                     <div class="col-12 col-md-6 detect-sound">
                       <span class="first-line">
                         <i class="fas fa-wifi fa-4x"></i>
