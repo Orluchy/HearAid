@@ -1,8 +1,8 @@
 <?php 
-   $servername = 'localhost';
+   $servername = '';
    $username = 'Orluchy';
    $password = 'cherries11!';
-   $database = 'hear_aid';
+   $database = '';
    
    $connection = mysqli_connect($servername, $username, $password, $database) or die(mysqli_connect_error());
 
@@ -11,14 +11,16 @@
     if(!$connection){
         $emailer = $_POST['email'];
         $sql = "INSERT INTO emails (email) VALUES ('$emailer')";
-        $move = mysql_query($connection,$sql) or mysqli_connect_error($connection);
-    }
+        $load = mysql_query($connection,$sql) or mysqli_connect_error($connection);
+    
          
-      if($move) {
+      if($load) {
           echo "Thanks for subscribing!";
       }
       else {
           echo "There was an error!";
       }
+
+    }
   }
 ?>

@@ -7,20 +7,13 @@
 body {
     background : #ffffff;
     font-family: 'Montserrat', sans-serif;
-    background-image: url("imgs/back logo.png");
-    background-position: top -38%, left 20%;
 }
 
 .header {
     background: #222624;
     height: 800px;
     color: #ffffff;
-}
-
-.first-line {
-    border: 1px solid rgba(238, 238, 238, 0.25);
-    align-items: center;
-    width: 50px;
+    position: relative;
 }
 
 .aid_logo img {
@@ -31,8 +24,8 @@ body {
     border: 1px solid rgba(238, 238, 238, 0.25);
     height: 0;
     position: absolute;
-    bottom: 80%;
-    width: 570px;
+    bottom: 84%;
+    width: 567px;
     margin-right: 0;
     margin-left: 628px;
     margin-top: 0px;
@@ -48,7 +41,7 @@ body {
 .underline {
     background: #2EC68F;
     height: 12px;
-    width: 335px;
+    width: 325px;
     margin-bottom: 10px;
 }
 
@@ -72,6 +65,7 @@ body {
 
 input[type="email"] {
     color: #c4c4c4;
+    opacity: 0.7;
     background: #222624;
     border: 2px solid #eeeeee;
     border-bottom-left-radius: 5px;
@@ -80,12 +74,17 @@ input[type="email"] {
 
 .input-group-append {
     border-radius: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: -9.64706px 9.64706px 19.2941px rgba(0, 0, 0, 0.35), -23.1529px 23.1529px 57.8824px rgba(0, 0, 0, 0.2), -30.8706px 30.8706px 135.059px rgba(0, 0, 0, 0.2), 11.5765px -11.5765px 19.2941px rgba(255, 255, 255, 0.07), inset -3.85882px 3.85882px 7.71765px rgba(255, 255, 255, 0.4);
+    
 }
 
 .input-group-text {
     background: #2EC68F;
     border-radius: 5px;
-    box-shadow: -9.64706px 9.64706px 19.2941px rgba(0, 0, 0, 0.35), -23.1529px 23.1529px 57.8824px rgba(0, 0, 0, 0.2), -30.8706px 30.8706px 135.059px rgba(0, 0, 0, 0.2), 11.5765px -11.5765px 19.2941px rgba(255, 255, 255, 0.07), inset -3.85882px 3.85882px 7.71765px rgba(255, 255, 255, 0.4);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     color: #ffffff;
     text-align: center;
     font-size: 16px;
@@ -117,7 +116,71 @@ input[type="email"] {
     font-size: 14px;
 }
 
-.heading_underline2 {
-    border: 1px solid rgba(238, 238, 238, 0.25);
-    height: 0;
+.section-underline {
+    background: 1px solid rgba(238, 238, 238, 0.25);
+    height: 1px;
+    position: absolute;
+    bottom: 80%;
 }
+
+.features {
+    background-image: url("imgs/back logo.png");
+    background-position: left -20%, top -20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.app-features {
+    margin-top: 400px;;
+}
+
+.detect-sound {
+    text-align: center;
+}
+
+.feat-img1 {
+    padding-left: 30px;
+}
+
+.feat-img2 {
+    padding-left: 100px;
+}
+
+.features-heading {
+    width: 459px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    text-transform: capitalize;
+    color: #2EC68F;
+}
+
+#stubborn-headings {
+    width: 500px;
+}
+
+.features-text {
+    width: 420px;
+    height: 68px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.07em;
+    text-transform: capitalize;
+    color: #222624;
+    text-align: left;
+    padding-left: 70px;
+}
+
+
+.subscribe {
+    background: #222624;
+    color: #ffffff;
+    height: 500px;
+    position: relative;
+}
+

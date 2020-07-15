@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="icon" href="./imgs/logo.png" type="image/png">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/cf87ec6cf2.js" crossorigin="anonymous"></script>
     <title>HearAid</title>
   </head>
   <body>
       <section class="header">
+        <div class="section-underline"></div>
            <div class="aid_logo text-center">
               <img src="imgs/Group 21.png" alt="Hear_aid_logo">
               <hr class="heading_underline">
@@ -25,15 +27,14 @@
                   <h1 class="coming_soon">COMING SOON</h1>
                   <div class="underline"></div>
                   <p class="lead1 py-3">HearAid Convert Sounds And Text Into Video Simulations For<br>The Hearing Impaired With The Coolest Illustrations Possible</p>
-                  <p class="lead2 py-2">Notify Me When The App Drops</p>
-                  <form action="" method="post" class="input1">
-                    <div class="input-group py-3">
-                      <input type="email" name="email" placeholder="Email Address" required>
+                  <p class="lead2 pb-2">Notify Me When The App Drops</p>
+                  <form action="insert.php" method="post" class="input1">
+                    <div class="input-group py-2">
+                      <input type="email" name="email" id="email" placeholder="Email Address" class="px-2" required>
                       <div class="input-group-append">
                         <button type="submit" name="subscribe" value="subscribe" class="input-group-text input-group-bg py-3 px-3">
                            SUBSCRIBE
                         </button>
-                        <div class="heading_underline2"></div>
                       </div>
                     </div>
                   </form>
@@ -49,9 +50,110 @@
       </section>
 
       <section class="features">
-
+          <div class="container">
+            <div class="container">
+              <div class="row app-features">
+                <div class="col-12 col-md-6 feat-img1">
+                  <img src="imgs/X - 15.png" alt="sound-detector">
+                </div>
+                  <div class="col-12 col-md-6 detect-sound">
+                    <span class="first-line">
+                      <i class="fas fa-wifi fa-4x text-center"></i>
+                    </span>
+                    <div class="features-details">
+                       <h4 class=" features-heading">Detect Sounds</h4>
+                       <p class=" features-text">Set HearAid To Automatically start listening when someone starts talking close to you, or when a particular sound is around the user</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row app-features2">
+                  <div class="col-12 col-md-6 detect-sound">
+                    <span class="first-line">
+                      <i class="fas fa-wifi fa-4x"></i>
+                    </span>
+                    <div class="features-details">
+                       <h4 class="text-center features-heading" id="stubborn-headings">Listen to Sound</h4>
+                       <p class="features-text">Listens to sounds of/and voices around the user. The app also allows the user to customize what sounds to listen to</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 feat-img2">
+                    <img src="imgs/X - 11.png" alt="sound-detector">
+                  </div>
+                  </div>
+                <div class="row app-features3">
+                  <div class="col-12 col-md-6 feat-img1">
+                    <img src="imgs/X - 15.png" alt="sound-detector">
+                  </div>
+                    <div class="col-12 col-md-6 detect-sound">
+                      <span class="first-line">
+                        <i class="fas fa-wifi fa-4x"></i>
+                      </span>
+                      <div class="features-details">
+                         <h4 class="text-center features-heading" id="stubborn-headings">Convert Sounds to Video Simulation</h4>
+                         <p class="features-text">HearAid uses AI to understand sounds and create a video depicting actions creating the sound</p>
+                      </div>
+                    </div>
+                </div>
+                  <div class="row app-features4">
+                    <div class="col-12 col-md-6 detect-sound">
+                      <span class="first-line">
+                        <i class="fas fa-wifi fa-4x"></i>
+                      </span>
+                      <div class="features-details">
+                         <h4 class="text-center features-heading">Create your Unique avatar</h4>
+                         <p class="features-text">HearAid uses AI to understand sounds and create a video depicting actions creating the sound</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 feat-img2">
+                      <img src="imgs/create avatar.png" alt="sound-detector">
+                    </div>
+                 </div>
+                 <div class="row app-features5">
+                  <div class="col-12 col-md-6 feat-img1">
+                    <img src="imgs/X - 13.png" alt="sound-detector">
+                  </div>
+                    <div class="col-12 col-md-6 detect-sound">
+                      <span class="first-line">
+                        <i class="fas fa-wifi fa-4x"></i>
+                      </span>
+                      <div class="features-details">
+                         <h4 class="text-center features-heading">Preview simulation</h4>
+                         <p class="features-text"> Watch sounds as videos, choose qualities and edit videos as you like</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row app-features6">
+                    <div class="col-12 col-md-6 detect-sound">
+                      <span class="first-line">
+                        <i class="fas fa-wifi fa-4x"></i>
+                      </span>
+                      <div class="features-details">
+                         <h4 class="text-center features-heading">Save, share and connect to community</h4>
+                         <p class="features-text">Set HearAid To Automatically start listening when someone starts talking close to you, or when a particular sound is around the user .the user can manually record sounds at any time to be simulated</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 feat-img2">
+                      <img src="imgs/X - 15.png" alt="sound-detector">
+                    </div>
+                 </div>
+              </div>
+            </div>
       </section>
 
+
+      <section class="subscribe">
+          <div class="container">
+             <div>
+               <h4 class="subscribe-header">Sounds Interesting?</h4>
+             </div>
+             <div>
+               <p class="subscribe-text">Subscribe to get notified</p>
+             </div>
+             <div class="subscribe-form">
+
+             </div>
+          </div>
+      </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
