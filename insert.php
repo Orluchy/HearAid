@@ -1,26 +1,26 @@
 <?php 
-   $servername = '';
-   $username = 'Orluchy';
-   $password = 'cherries11!';
-   $database = 'emails';
+   $servername = 'us-cdbr-east-02.cleardb.com';
+   $username = 'bf750b3af7248a';
+   $password = '36c65423';
+   $database = 'heroku_077af2559d593c4';
    
-   $connection = mysqli_connect($servername, $username, $password, $database) or die(mysqli_connect_error());
+   $conn = mysqli_connect($servername, $username, $password, $database) or die(mysqli_connect_error());
 
-  if(isset ($_POST['email'])){
+  if(isset ($_POST['submit'])) {
     
-    if(!$connection){
-        $emailer = $_POST['email'];
-        $sql = "INSERT INTO emails (email) VALUES ('$emailer')";
-        $load = mysql_query($connection,$sql) or mysqli_connect_error($connection);
+        $email = $_POST['email'];
+        $query = "INSERT INTO emails (email) VALUES ('$email')";
+        $load = mysql_query($conn,$query) or mysqli_connect_error($conn);
     
          
       if($load) {
-          echo "We'll keep you updated!";
+          header('Location: 'index.php'');
       }
       else {
           echo "There was an error!";
       }
-
-    }
   }
 ?>
+
+
+
