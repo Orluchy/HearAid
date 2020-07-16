@@ -226,3 +226,34 @@ input[type="email"] {
     1.5
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.subscribeFooter {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.absoluteFooter {
+  position: absolute;
+  width: 1440px;
+  height: 81px;
+  left: 0px;
+  /* top: 5156px; */
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredImg {
+  width: 30%;
+}
