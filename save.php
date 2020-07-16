@@ -7,17 +7,14 @@ if (isset($_POST['email'])) {
 
     //Start the session if already not started.
     session_start();
-        $_SESSION['success_messagetwo'] = "Email saved successfully.";
+    $_SESSION['success_message'] = "Email saved successfully.";
     header("Location: index.php");
     exit();
 } else {
            session_start();
-        $_SESSION['error_messagetwo'] = "There was an error saving the email.";
+    $_SESSION['error_message'] = "There was an error saving the email.";
 
     header("Location: index.php");
     exit();
 }
 ?>
-
-
-
